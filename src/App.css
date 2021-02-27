@@ -46,9 +46,9 @@ body {
   font-weight: bold;
 }
 .weather-location {
-  font-size: 1rem;
-  margin-top: 10px;
-  font-weight: bold;
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
 }
 
 .search-nav {
@@ -79,6 +79,9 @@ body {
 
 .general-details {
   background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .specific-details {
@@ -106,4 +109,17 @@ body {
 .detail.bordered {
   border-left: 1px solid black;
   border-right: 1px solid black;
+}
+
+.temp-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
